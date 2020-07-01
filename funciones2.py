@@ -1,21 +1,21 @@
 def funcionFor():
     print("funcion for")
     #for variable in elemento iterable (lista) :
-    for i in "ISRAEL":
+    for i in "TEMUCO":
         print("i: ",i)
         print(f" dentro de for {i}")
 
 #creamos una lista
 lista_uno = ['a', 'b', 'c', 'd']
 #llamado a la funcion
-#funcionFor()
+funcionFor()
 
-#var= int(input("cual es la cantidad de veces"))
-#for i in range(var):
-    #print("i en range 7: ", i)
+var= int(input("cual es la cantidad de veces"))
+for i in range(var):
+    print("i en range 7: ", i)
 
-#for i in range(1,10):
-    #print("i en range 1 al 9: ", i)
+for i in range(1,10):
+    print("i en range 1 al 9: ", i)
 
 var1= int(input("tamaño de la lista?")) # cantidad del range
 lista = [] #definir lista vacia
